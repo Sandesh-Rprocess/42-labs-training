@@ -1,15 +1,15 @@
-# Company Fact Sheet
+# Nasdaq
+## Company Fact Sheet
 
 Report as of 8 Nov 2023
 
-## Nordea Bank Abp
-NDA SE (FI4000297767 )
+## Nordea Bank Abp NDA SE(FI4000297767 )
 
-### Growth of 10,000 (Total return SEK since 31/12/2019)
+### Growth of 10,000 (Total return SEK since31/12/2019)
 
 *Chart showing the growth of 10,000 SEK over time with volume chart below.*
 
-### Yearly Performance % (SEK)
+### Yearly Performance %(SEK)
 
 ```yaml
 table:
@@ -20,7 +20,7 @@ table:
     Yearly Performance % (SEK): {2016: 14.9, 2017: 4.1, 2018: -18.0, 2019: 11.1, 2020: -11.1, 2021: 76.3, 2022: 5.9, 2023-10: 13.07}
 ```
 
-### Trailing Returns % (SEK)
+### Trailing Returns %(SEK)
 
 ```yaml
 table:
@@ -31,17 +31,18 @@ table:
     Trailing Returns % (SEK): {1 Week: -0.5, 1 Month: -2.8, 3 Months: -2.2, 6 Months: 6.9, YTD: 12.6, 1 Year: 18.6, 3 Years: 25.0, 5 Years: 12.6}
 ```
 
-### Financials (EUR)
+### Financials(EUR)
 
 ```yaml
 table:
   description: Financial data in EUR over a five-year trend and for specific years
-  column_names: [5 Yr Trend, 2020, 2021, 2022]
-  row_names: [Net Revenue, Net Interest Income, Fee Income, Operating Margin %, Income before income taxes (Mil), Net Income (Mil), Operating Cash Flow (Mil), Free Cash Flow (Mil), Basic Earn. Per Share, Dividend Per Share]
+  column_names: [Years, 5 Yr Trend, 2020, 2021, 2022]
+  row_names: [Net Revenue, Net Interest Income, Fee Income, Operating Income (Mil), Operating Margin %, Income before income taxes (Mil), Net Income (Mil), Operating Cash Flow (Mil), Free Cash Flow (Mil), Basic Earn. Per Share, Dividend Per Share]
   data:
     Net Revenue: {5 Yr Trend: '-', 2020: 8,493, 2021: 9,657, 2022: 9,752}
-    Net Interest Income: {5 Yr Trend: '-', 2020: 4,515, 2021: 4,925, 2022: 5,684}
+    Net Interest Income: {5 Yr Trend: '-', 2020: 4,515, 2021: 4,925, 2022: 5,664}
     Fee Income: {5 Yr Trend: '-', 2020: 2,959, 2021: 3,495, 2022: 3,336}
+    Operating Income (Mil): {5 Yr Trend: '-', 2020: '-', 2021: '-', 2022: '-'}
     Operating Margin %: {5 Yr Trend: '-', 2020: '-', 2021: '-', 2022: '-'}
     Income before income taxes (Mil): {5 Yr Trend: '-', 2020: 2,963, 2021: 4,936, 2022: 4,768}
     Net Income (Mil): {5 Yr Trend: '-', 2020: 2,265, 2021: 3,831, 2022: 3,597}
@@ -51,12 +52,12 @@ table:
     Dividend Per Share: {5 Yr Trend: '-', 2020: 0.00, 2021: 0.79, 2022: 0.69}
 ```
 
-### Profitability and Valuation (EUR)
+### Profitability and Valuation(EUR)
 
 ```yaml
 table:
   description: Profitability and valuation metrics in EUR over a five-year trend and for specific years
-  column_names: [5 Yr Trend, 2020, 2021, 2022]
+  column_names: [Years, 5 Yr Trend, 2020, 2021, 2022]
   row_names: [Return on Assets %, Return on Equity %, Return on Invested Capital %, Price / Earnings, Price / Sales, Price / Book]
   data:
     Return on Assets %: {5 Yr Trend: '-', 2020: 0.4, 2021: 0.7, 2022: 0.6}
